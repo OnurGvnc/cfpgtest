@@ -3,7 +3,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "echo \"hi!\"",
-    "//build": "remix build",
+    "buildd": "remix build",
     "dev:remix": "remix watch",
     "dev:wrangler": "cross-env NODE_ENV=development npm run wrangler",
     "dev": "remix build && run-p \"dev:*\"",
